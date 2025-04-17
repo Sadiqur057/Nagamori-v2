@@ -8,7 +8,7 @@ const MobileNav = ({sidebar,setSidebar}) => {
         <Link onClick={()=>{setSidebar(!sidebar)}} to={"/"}>ホーム</Link>
         <Link onClick={()=>{setSidebar(!sidebar)}} to={"/treatment"}>施術メニュー</Link>
         <Link onClick={()=>{setSidebar(!sidebar)}} to={"/schedule"}>出勤予定表</Link>
-        <Link onClick={()=>{setSidebar(!sidebar)}} to={"/contact"}>お問合せ</Link>
+        <Link onClick={()=>{setSidebar(!sidebar)}} to={"/contact"}>お問い合わせ.</Link>
       </div>
     </div>
   )

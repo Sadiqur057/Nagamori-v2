@@ -128,7 +128,7 @@ export default function Navbar({ sidebar, setSidebar }) {
               className={`relative text-[0.95vw]`}
               to={"/contact"}
             >
-              お問合せ
+              お問い合わせ.
               <div
                 className={`absolute -bottom-[.5vw] h-[1px] w-full bg-black ${
                   activeMenu === "contact" ? "block" : "hidden"

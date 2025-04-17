@@ -6,7 +6,7 @@ import TreatmentCard from "../components/TreatmentCard";
 const Treatment = () => {
   return (
     <div>
-      <div className="pt-28 md:pt-[10vw] px-6 md:px-[16vw]">
+      <div className="pt-28 md:pt-[8vw] px-6 md:px-[16vw]">
         <p className="text-[3vw] md:text-[1.3vw] mb-[1vw] text-[#00000063] md:text-black">ホーム 施術メニュー（料金表）</p>
         <p className="text-[7vw] text-center px-20 md:px-0 md:text-left md:text-[3.3vw] mb-5 font-[400]">施術メニュー（料金表）</p>
       </div>
